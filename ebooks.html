@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>E-books - Digital Marketing & Accounting Agency</title>
+<style>
+  body {
+    background-color: #1f2024;
+    color: #e1e1e1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #2d2f36;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header h1 {
+    color: #ffa500;
+    font-size: 22px;
+    margin: 0;
+    font-weight: 700;
+  }
+  nav a {
+    color: #e1e1e1;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: #ffa500;
+  }
+  main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  h2.page-title {
+    color: #ffa500;
+    font-size: 28px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .ebook-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+  }
+  .ebook {
+    background-color: #2d2f36;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 0 12px rgba(255, 165, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .ebook h3 {
+    font-size: 20px;
+    color: #ffd580;
+    margin-top: 0;
+  }
+  .ebook p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+  .price {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffa500;
+  }
+  .buy-btn {
+    background-color: #ffa500;
+    color: #1f2024;
+    font-weight: 700;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+  }
+  .buy-btn:hover {
+    background-color: #cc8400;
+  }
+  footer {
+    background-color: #2d2f36;
+    color: #a0a0a0;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 50px;
+    font-size: 13px;
+  }
+  footer a {
+    color: #ffa500;
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 640px) {
+    .ebook-list {
+      flex-direction: column;
+      align-items: center;
+    }
+    .ebook {
+      width: 90%;
+    }
+    nav a {
+      margin-left: 10px;
+      font-size: 14px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Digital Marketing & Accounting Agency</h1>
+  <nav>
+    <a href="index.html">Accueil / Home</a>
+    <a href="services.html">Services</a>
+    <a href="formations.html">Formations / Trainings</a>
+    <a href="ebooks.html">E-books</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <h2 class="page-title">E-books disponibles / Available E-books</h2>
+
+  <div class="ebook-list">
+
+    <div class="ebook">
+      <h3>Maîtriser Excel - Guide complet<br>Mastering Excel - Complete Guide</h3>
+      <p>Apprenez à utiliser Excel comme un pro pour gérer vos données, créer des tableaux et analyser facilement.<br>
+      Learn to use Excel like a pro to manage data, create tables, and analyze easily.</p>
+      <p class="price">Prix: 10 000 FCFA / $18</p>
+      <a href="payment.html" class="buy-btn">Acheter maintenant / Buy Now</a>
+    </div>
+
+    <div class="ebook">
+      <h3>Sage Saari - Gestion simplifiée<br>Sage Saari - Simplified Management</h3>
+      <p>Découvrez les bases de Sage Saari pour la gestion comptable et commerciale de votre entreprise.<br>
+      Discover Sage Saari basics for accounting and business management.</p>
+      <p class="price">Prix: 10 000 FCFA / $18</p>
+      <a href="payment.html" class="buy-btn">Acheter maintenant / Buy Now</a>
+    </div>
+
+    <div class="ebook">
+      <h3>Sage Gestion Commerciale<br>Sage Business Management</h3>
+      <p>Apprenez à gérer efficacement votre commerce avec Sage Gestion Commerciale.<br>
+      Learn how to efficiently manage your business with Sage Business Management.</p>
+      <p class="price">Prix: 10 000 FCFA / $18</p>
+      <a href="payment.html" class="buy-btn">Acheter maintenant / Buy Now</a>
+    </div>
+
+    <div class="ebook">
+      <h3>Comment ouvrir un compte professionnel<br>How to Open a Professional Account</h3>
+      <p>Guide étape par étape pour ouvrir un compte professionnel sur les réseaux sociaux (Facebook, Instagram, etc.)<br>
+      Step-by-step guide to open professional accounts on social networks (Facebook, Instagram, etc.)</p>
+      <p class="price">Prix: 10 000 FCFA / $18</p>
+      <a href="payment.html" class="buy-btn">Acheter maintenant / Buy Now</a>
+    </div>
+
+    <div class="ebook">
+      <h3>Comment faire du sponsoring et créer des pages pro<br>How to do Sponsoring and Create Professional Pages</h3>
+      <p>Apprenez les techniques de sponsoring et la création de pages professionnelles efficaces.<br>
+      Learn sponsoring techniques and how to create effective professional pages.</p>
+      <p class="price">Prix: 10 000 FCFA / $18</p>
+      <a href="payment.html" class="buy-btn">Acheter maintenant / Buy Now</a>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <p>Contact: +237 690 826 804 | +237 681 856 939 | Email: <a href="mailto:priscaviviane60@gmail.com">priscaviviane60@gmail.com</a></p>
+  <p>Rejoignez nos groupes :</p>
+  <p>
+    <a href="https://chat.whatsapp.com/KPrfGDMZbIyBIjh2tY1g3J?mode=ac_t" target="_blank">Groupe WhatsApp</a> | 
+    <a href="https://t.me/DigitalMarketingAgencyFR" target="_blank">Groupe Telegram</a>
+  </p>
+</footer>
+
+</body>
+</html>
